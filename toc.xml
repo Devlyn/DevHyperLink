@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Addon Author="WildStyler" APIVersion="9" Name="DevHyperLink" Description="Adds copy paste functionality for hyperlinks in cat">
+    <Script Name="Libs/GeminiAddon/GeminiAddon.lua"/>
+    <Script Name="Libs/GeminiLogging/GeminiLogging.lua"/>
+    <Script Name="Libs/GeminiHook/GeminiHook-1.0.lua"/>
+    <Script Name="Libs/GeminiLocale/GeminiLocale.lua"/>
+    <Script Name="Libs/GeminiDB/GeminiDB-1.0.lua"/>
+	<Script Name="Libs/LibApolloFixes/LibApolloFixes-1.0.lua"/>
+    <Script Name="DevHyperLink.lua"/>
+    <Form Name="DevHyperLink.xml"/>
+</Addon>
