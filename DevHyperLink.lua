@@ -349,4 +349,3 @@ end
 function DevHyperLink:OnNo( wndHandler, wndControl, eMouseButton )
 	wndControl:GetParent():Close()
 end
-
