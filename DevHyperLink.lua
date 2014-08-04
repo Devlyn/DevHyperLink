@@ -297,7 +297,7 @@ function DevHyperLink:SubstractUrl(_text, _pattern)
 	if string.find(_text, _pattern) == nil then
 		return _text
 	end 
-	return string.gsub(_text, string.sub(_text, string.find(_text, _pattern)), "")
+	return string.gsub(_text, _pattern, "", 1)
 end
 
 ---------------------------------------------------------------------------------------------------
